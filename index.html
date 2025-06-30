@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AS.INDUSTRIES - Plastic Buckets Manufacturer</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    nav {
+      background-color: #005f99;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1.5rem;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffc107;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1590080877763-23b3f1f1f7a8?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: 700;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      border-bottom: 3px solid #007acc;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+      font-weight: 700;
+      color: #007acc;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap: 1.5rem;
+    }
+    .product-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .product-card img {
+      max-width: 100%;
+      height: 180px;
+      object-fit: contain;
+      margin-bottom: 1rem;
+    }
+    .product-card h3 {
+      margin: 0 0 0.5rem 0;
+      font-weight: 700;
+      color: #005f99;
+    }
+    .product-card p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #005f99;
+      color: white;
+      text-align: center;
+      padding: 1rem 2rem;
+      font-size: 0.9rem;
+    }
+    .contact-info p {
+      margin: 0.3rem 0;
+    }
+    @media(max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>AS.INDUSTRIES</header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero" id="home">
+    Premium Plastic Buckets for Every Need
+  </div>
+
+  <main>
+    <section id="products">
+      <h2>Our Plastic Buckets</h2>
+      <div class="products">
+        <div class="product-card">
+          <img src="https://cdn.pixabay.com/photo/2017/07/07/09/03/bucket-2477109_1280.png" alt="Plastic Bucket 10L" />
+          <h3>10 Liter Plastic Bucket</h3>
+          <p>Durable and lightweight, perfect for household and industrial use.</p>
+        </div>
+        <div class="product-card">
+          <img src="https://cdn.pixabay.com/photo/2018/02/04/19/11/bucket-3131493_1280.png" alt="Plastic Bucket 20L" />
+          <h3>20 Liter Plastic Bucket</h3>
+          <p>Extra strong construction for heavy-duty tasks with secure lid options.</p>
+        </div>
+        <div class="product-card">
+          <img src="https://cdn.pixabay.com/photo/2016/03/27/21/34/bucket-1281474_1280.png" alt="Plastic Bucket 5L" />
+          <h3>5 Liter Plastic Bucket</h3>
+          <p>Compact and handy size for gardening and cleaning.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <p><strong>Address:</strong> 123 Industrial Road, Cityville</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Email:</strong> info@asindustries.com</p>
+        <p><strong>Website:</strong> www.asindustries.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 AS.INDUSTRIES. All rights reserved.
+  </footer>
+</body>
+</html>
